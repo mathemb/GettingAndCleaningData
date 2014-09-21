@@ -5,6 +5,9 @@ Repo to answer the 'GettingAndCleaningData' Assignement from Coursera
 Information on run_analysis.R 
 -----------------------------
 
+Before running run_analysis, please download the UCI HAR Dataset .zip file from the following URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Make sure to unzip the file into your working directory and verify that run_analysis.R is also saved in the working directory.
+
 1. The first part concentrates on uploading the different raw dataset into 6 different data frames:
   - subject_test is the data frame created from 'subject_test.txt' which represents the subject who performes the activity and is assigned to the test group
   - xtest is the data frame created from 'x_text.txt' which represents the Test set
@@ -14,9 +17,6 @@ Information on run_analysis.R
   - ytrain is the data frame created from 'y_train.txt which represents the Training labels
  
 For more information on the different datasets, please open README.text in the UCI HAR Dataset folder.
-
-In order to do that the 'getdata-projectfiles-UCI HAR Dataset.zip' file should be uploaded
-in the working directory.
 
 2. Assignment of the label to the column names of the different objects. 
   - For the two subject_* data frames the label "subject" is added to their only columns. (* = test or train) 
