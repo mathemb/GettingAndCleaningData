@@ -1,7 +1,7 @@
 ---
-title: "CoodBook"
+title: "CodeBook"
 author: "mathemb"
-date: "8 Sep 2014"
+date: "21 Sep 2014"
 output: html_document
 ---
 
