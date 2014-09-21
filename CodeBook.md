@@ -18,47 +18,46 @@ The first 2 variables of tidyData represent the activity and subject, respective
 
 The next variables represents the average value of the different measurments obtained. The 'feature_info.txt' explains the different terminology used for the variables. 
 
- - Columns 3 to 35 represent the mean values of all the mean values of
----
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
----
-where '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+- Columns 3 to 35 represent the mean values of all the mean values of:
+        tBodyAcc-XYZ
+        tGravityAcc-XYZ
+        tBodyAccJerk-XYZ
+        tBodyGyro-XYZ
+        tBodyGyroJerk-XYZ
+        tBodyAccMag
+        tGravityAccMag
+        tBodyAccJerkMag
+        tBodyGyroMag
+        tBodyGyroJerkMag
+        fBodyAcc-XYZ
+        fBodyAccJerk-XYZ
+        fBodyGyro-XYZ
+        fBodyAccMag
+        fBodyAccJerkMag
+        fBodyGyroMag
+        fBodyGyroJerkMag
+
+        where '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 - Columns 36 to 69 represent the mean values of all the standard deviations of:
----
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
----
+        tBodyAcc-XYZ
+        tGravityAcc-XYZ
+        tBodyAccJerk-XYZ
+        tBodyGyro-XYZ
+        tBodyGyroJerk-XYZ
+        tBodyAccMag
+        tGravityAccMag
+        tBodyAccJerkMag
+        tBodyGyroMag
+        tBodyGyroJerkMag
+        fBodyAcc-XYZ
+        fBodyAccJerk-XYZ
+        fBodyGyro-XYZ
+        fBodyAccMag
+        fBodyAccJerkMag
+        fBodyGyroMag
+        fBodyGyroJerkMag
+
+        where '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 Please refer to 'feature_info.txt' of the raw data set for more information about each variables.
