@@ -5,7 +5,7 @@ date: "21 Sep 2014"
 output: html_document
 ---
 
-DESCRIPTION OF THE tidyData.txt VARIABLES obtained after applying run.analysis.R to the UCI HAR Dataset
+DESCRIPTION OF THE tidyData.txt VARIABLES OBTAINED AFTER APPLYING run.analysis.R TO THE UCI HAR Dataset
 =======================================================================================================
 
 The first 2 variables of tidyData represent the activity and subject, respectively:
