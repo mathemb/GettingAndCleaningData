@@ -11,6 +11,7 @@ DESCRIPTION OF THE tidyData.txt VARIABLES OBTAINED AFTER APPLYING run.analysis.R
 The first 2 variables of tidyData represent the activity and subject, respectively:
 
 - Activity: identifies the activity performed by each subject wearing a smartphone (Samsung Galaxy S II) on the waist. There are six different activities - Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing and Laying.
+
 - Subject: identifies the subject who performed the activity. Its range is from 1 to 30.
 
 The next variables represents the average value of the different measurments obtained. The 'feature_info.txt' explains the different terminology used for the variables. 

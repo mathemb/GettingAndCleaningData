@@ -1,9 +1,9 @@
-GettingAndCleaningData
-======================
-
 Repo to answer the 'GettingAndCleaningData' Assignement from Coursera
+=====================================================================
 
-Information on run_analysis.R
+
+Information on run_analysis.R and description of how it works
+-------------------------------------------------------------
 
 1. The first part concentrates on uploading the different raw dataset into 6 different data frames:
   - subject_test is the data frame created from 'subject_test.txt' which represents the subject who performes the activity and is assigned to the test group
