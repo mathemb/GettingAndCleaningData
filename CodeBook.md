@@ -5,8 +5,10 @@ date: "21 Sep 2014"
 output: html_document
 ---
 
-DESCRIPTION OF THE tidyData.txt VARIABLES OBTAINED AFTER APPLYING run.analysis.R TO THE UCI HAR Dataset
-=======================================================================================================
+Description of the variables contained in tidyData.txt
+======================================================
+
+tidyData.txt was obtained after applying run_analysis.R to the UCI HAR Dataset obtained at the following URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The first 2 variables of tidyData represent the activity and subject, respectively:
 
@@ -16,8 +18,9 @@ The first 2 variables of tidyData represent the activity and subject, respective
 
 The next variables represents the average value of the different measurments obtained. The 'feature_info.txt' explains the different terminology used for the variables. 
 
- - Columns 3 to 35 represent the mean values of all the mean values of:
-tBodyAcc-XYZ           ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions)
+ - Columns 3 to 35 represent the mean values of all the mean values of
+---
+tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
 tBodyGyro-XYZ
@@ -34,9 +37,12 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
+---
+where '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 - Columns 36 to 69 represent the mean values of all the standard deviations of:
-tBodyAcc-XYZ          ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions)
+---
+tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
 tBodyGyro-XYZ
@@ -53,5 +59,6 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
+---
 
 Please refer to 'feature_info.txt' of the raw data set for more information about each variables.
