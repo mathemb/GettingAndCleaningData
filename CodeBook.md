@@ -5,6 +5,9 @@ date: "21 Sep 2014"
 output: html_document
 ---
 
+DESCRIPTION OF THE tidyData.txt VARIABLES obtained after applying run.analysis.R to the UCI HAR Dataset
+=======================================================================================================
+
 The first 2 variables of tidyData represent the activity and subject, respectively:
 
 - Activity: identifies the activity performed by each subject wearing a smartphone (Samsung Galaxy S II) on the waist. There are six different activities - Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing and Laying.
