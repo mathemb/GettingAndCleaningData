@@ -44,5 +44,6 @@ Data is subsetted depending on the activity class label which is replaced by its
 6. Part 4 of the assignement was fulfilled when labeling the columns of xtest and xtrain in part 2
 
 7. Finally, the tidy dataset, tidyData, is obtianed by applying the ddply to data with activity and subject as variables to split the data frame and numcolwise applied to mean as the function to apply to each piece.
+Here, the column repartition is not added to the variables as the reapartiton variables is directly correlated to the subject id and therefore should be removed to get a tidy data. Another data frame with the correspondence of the subject id and its repartition in either 'test' or 'train' could be added on the side to keep all the inforamtion and keep the data tidy.
 
 The tidydata data frame is saved and exported to the file tidyData.txt in the working directory using the write.table function with row.name set to FALSE.
